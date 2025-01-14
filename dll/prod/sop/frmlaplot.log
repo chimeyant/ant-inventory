@@ -1,0 +1,10 @@
+Line 21: Class XtremeSuiteControls.RadioButton of control opttgl was not a loaded control class.
+Line 44: Class XtremeSuiteControls.PushButton of control btnClose was not a loaded control class.
+Line 66: Class XtremeSuiteControls.RadioButton of control optlot was not a loaded control class.
+Line 88: Class XtremeSuiteControls.GroupBox of control GB1 was not a loaded control class.
+Line 180: Class XtremeSuiteControls.PushButton of control cmdview was not a loaded control class.
+Line 210: Class XtremeSuiteControls.RadioButton of control optgudang was not a loaded control class.
+Line 232: Class XtremeSuiteControls.GroupBox of control GB2 was not a loaded control class.
+Line 260: Class XtremeSuiteControls.PushButton of control cmdnolot was not a loaded control class.
+Line 285: Class XtremeSuiteControls.RadioButton of control optByLot was not a loaded control class.
+Line 307: Class XtremeSuiteControls.RadioButton of control optWIP was not a loaded control class.

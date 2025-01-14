@@ -1,0 +1,21 @@
+VBGROUP 5.0
+StartupProject=antinventory.vbp
+Project=dll\master\master.vbp
+Project=dll\purchasing\Tables\purc_tables.vbp
+Project=dll\sale\inv\sale_inv.vbp
+Project=dll\sale\tbl\sale_tbl.vbp
+Project=dll\sale\mut\sale_mut.vbp
+Project=dll\sale\uti\sale_uti.vbp
+Project=dll\finance\sale\finance_sale.vbp
+Project=dll\purchasing\mut\purc_mut.vbp
+Project=dll\purchasing\purc\purc_purc.vbp
+Project=dll\finance\purc\finance_purc.vbp
+Project=dll\purchasing\util\purc_util.vbp
+Project=dll\gl\tables\gl_tables.vbp
+Project=dll\gl\fixedasset\gl_fixas.vbp
+Project=dll\prod\tables\prod_tables.vbp
+Project=dll\prod\sop\prod_sop.vbp
+Project=dll\gl\ledger\gl_ledger.vbp
+Project=dll\gl\report\gl_report.vbp
+Project=dll\gl\utility\gl_util.vbp
+Project=dll\prod\mutasi\Prod_mut.vbp

@@ -1,0 +1,15 @@
+CReport = 0, 0, 0, 0, C
+modEnscryptDecrypt = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+frmbalancetrial = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsearch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmbukubesar = 156, 156, 855, 598, Z, 130, 130, 829, 572, C
+frmworksheet = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmbukukas = 0, 0, 0, 0, C, 26, 26, 700, 468, C
+frmbalance = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmincome = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmaktivadaftar = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmaktivanilai = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmaktivajual = 0, 0, 0, 0, C, 0, 0, 0, 0, C

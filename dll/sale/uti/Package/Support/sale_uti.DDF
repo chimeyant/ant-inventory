@@ -1,0 +1,35 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="sale_uti.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"sale_uti.dll"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"titext6.ocx"
+"tishare6.dll"
+"tibase6.dll"
+"tinumb6.ocx"
+"EXCEL.EXE"
+"Chameleon.ocx"
+"TABCTL32.OCX"
+"MSCOMCT2.OCX"
+"MSHFLXGD.OCX"
+"MSSTDFMT.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"

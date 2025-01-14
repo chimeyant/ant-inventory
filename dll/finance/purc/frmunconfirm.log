@@ -1,0 +1,6 @@
+Line 102: Class Chameleon.chameleonButton of control cmdclose was not a loaded control class.
+Line 140: Class Chameleon.chameleonButton of control cmdclear was not a loaded control class.
+Line 178: Class Chameleon.chameleonButton of control cmdadd was not a loaded control class.
+Line 260: Class Chameleon.chameleonButton of control cmdswitch was not a loaded control class.
+Line 300: Class MSHierarchicalFlexGridLib.MSHFlexGrid of control grid was not a loaded control class.
+Line 333: Class akProgress.akProgressBar of control ak was not a loaded control class.

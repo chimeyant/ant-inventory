@@ -1,0 +1,10 @@
+CUtility = 0, 0, 0, 0, C
+modEnskryptDecrypt = 0, 0, 0, 0, C
+frmsearch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmdefine = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmpenerimaanexport = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmpenerimaanimport = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmstokopnamebahanbaku = 52, 52, 826, 494, Z, 26, 26, 800, 468, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C

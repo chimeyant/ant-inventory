@@ -1,0 +1,13 @@
+CMutasi = 0, 0, 0, 0, C
+modEnskryptDecrypt = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+frmmutasi = 182, 182, 856, 624, Z, 78, 78, 764, 520, C
+frmsearch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmmutasiedit = 156, 156, 898, 598, , 130, 130, 872, 572, C
+frmlaporanmutasi = 0, 0, 895, 368, , 104, 104, 790, 546, C
+modfungsi = 104, 104, 778, 546, 
+rptlaporansaldobahanbaku = 0, 0, 0, 0, C, 0, 0, 1374, 776, C
+subreport = 0, 0, 0, 0, C, 26, 26, 1400, 802, C
+frmmutbase = 182, 182, 976, 624, , 156, 156, 950, 598, C

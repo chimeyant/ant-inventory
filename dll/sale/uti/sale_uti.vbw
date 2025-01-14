@@ -1,0 +1,15 @@
+CUtility = 0, 0, 0, 0, C
+modEnscryptDecrypt = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+frmoptions = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmcancel = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsearch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsorderclose = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsoexport = 0, 0, 0, 0, C, 26, 26, 758, 468, C
+frmsoimport = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmsjalanexport = 78, 78, 809, 520, Z, 52, 52, 783, 494, C
+frmsjalanimport = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmDI = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmimportinv = 0, 0, 0, 0, C, 0, 0, 0, 0, C

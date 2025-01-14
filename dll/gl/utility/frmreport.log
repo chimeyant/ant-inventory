@@ -1,0 +1,12 @@
+Line 197: Class Chameleon.chameleonButton of control cmdupdategroup was not a loaded control class.
+Line 235: Class Chameleon.chameleonButton of control cmdaddgroup was not a loaded control class.
+Line 273: Class MSHierarchicalFlexGridLib.MSHFlexGrid of control grid1 was not a loaded control class.
+Line 307: Class MSHierarchicalFlexGridLib.MSHFlexGrid of control grid2 was not a loaded control class.
+Line 341: Class Chameleon.chameleonButton of control cmdaddetail was not a loaded control class.
+Line 379: Class Chameleon.chameleonButton of control cmdupdatedetail was not a loaded control class.
+Line 493: Class Chameleon.chameleonButton of control cmdsearch was not a loaded control class.
+Line 531: Class Chameleon.chameleonButton of control cmdsave was not a loaded control class.
+Line 569: Class Chameleon.chameleonButton of control cmdelete was not a loaded control class.
+Line 607: Class Chameleon.chameleonButton of control cmdclear was not a loaded control class.
+Line 645: Class Chameleon.chameleonButton of control cmdclose was not a loaded control class.
+Line 683: Class Chameleon.chameleonButton of control cmdcash was not a loaded control class.

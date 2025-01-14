@@ -1,0 +1,12 @@
+CFixedAsset = 0, 0, 0, 0, C
+modEnscryptDecrypt = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+frmsearch = 0, 0, 0, 0, C, 182, 182, 951, 624, C
+frmbeliaktiva = 78, 78, 777, 520, Z, 208, 208, 977, 650, C
+frmpostingbfa = 52, 52, 792, 494, , 26, 26, 766, 468, C
+frmunpostingbfa = 0, 0, 0, 0, C, 26, 26, 795, 468, C
+frmjualaktiva = 156, 156, 1107, 524, , 130, 130, 872, 572, C
+frmpostingjfa = 182, 182, 922, 624, , 156, 156, 896, 598, C
+frmunpostingjfa = 0, 0, 740, 442, , 208, 208, 948, 650, C

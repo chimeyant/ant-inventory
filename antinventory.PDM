@@ -1,0 +1,177 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\GIT ANT\NEW ANT
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+G:\PROJECT\sparta\AntInventory\SOURCE CODE VER 2.10\AnimatedGif.ocx=
+C:\Program Files (x86)\MINDSYS\bin\Codejock.Controls.v13.2.1.ocx=
+C:\Program Files (x86)\MINDSYS\bin\akprogressbar.ocx=
+C:\Program Files (x86)\MINDSYS\bin\Chameleon.ocx=
+C:\Program Files (x86)\MINDSYS\bin\Codejock.CommandBars.v13.2.1.ocx=
+C:\Program Files (x86)\MINDSYS\bin\Codejock.SkinFramework.v13.2.1.ocx=
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\MSHFLXGD.OCX=
+C:\Windows\SysWOW64\MSADODC.OCX=
+C:\Windows\SysWOW64\COMCT332.OCX=
+C:\Windows\SysWOW64\MSDATLST.OCX=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Windows\SysWOW64\MSDATGRD.OCX=
+C:\Windows\SysWOW64\MSMASK32.OCX=
+C:\Windows\SysWOW64\PICCLP32.OCX=
+C:\Windows\SysWOW64\MCI32.OCX=
+C:\Windows\SysWOW64\MSWINSCK.OCX=
+C:\Windows\SysWOW64\MSCHRT20.OCX=
+C:\Windows\SysWOW64\RICHTX32.OCX=
+C:\Windows\SysWOW64\MSINET.OCX=
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\COMDLG32.OCX=
+C:\Windows\SysWOW64\MSFLXGRD.OCX=
+C:\Windows\SysWOW64\TABCTL32.OCX=
+C:\Windows\SysWOW64\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+G:\GIT ANT\antinventory.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\tinumb6.ocx=Yes
+C:\Windows\SysWOW64\tishare6.dll=Yes
+C:\Windows\SysWOW64\tibase6.dll=Yes
+C:\Windows\SysWOW64\titext6.ocx=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Windows\SysWOW64\TABCTL32.OCX=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Windows\SysWOW64\MSINET.OCX=Yes
+C:\Windows\SysWOW64\RICHTX32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Windows\SysWOW64\MSCHRT20.OCX=Yes
+C:\Windows\SysWOW64\MSWINSCK.OCX=Yes
+C:\Windows\SysWOW64\MSMAPI32.OCX=Yes
+C:\Windows\SysWOW64\MCI32.OCX=Yes
+C:\Windows\SysWOW64\PICCLP32.OCX=Yes
+C:\Windows\SysWOW64\SYSINFO.OCX=Yes
+C:\Windows\SysWOW64\MSMASK32.OCX=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\MSDATLST.OCX=Yes
+C:\Windows\SysWOW64\COMCT332.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSHFLXGD.OCX=Yes
+C:\Program Files (x86)\MINDSYS\bin\Codejock.SkinFramework.v13.2.1.ocx=Yes
+C:\Program Files (x86)\MINDSYS\bin\Codejock.CommandBars.v13.2.1.ocx=Yes
+C:\Program Files (x86)\MINDSYS\bin\Chameleon.ocx=Yes
+C:\Windows\SysWOW64\Crystl32.OCX=Yes
+C:\Windows\SysWOW64\crpe32.dll=Yes
+C:\Program Files (x86)\MINDSYS\bin\akprogressbar.ocx=Yes
+C:\Program Files (x86)\MINDSYS\bin\Codejock.Controls.v13.2.1.ocx=Yes
+G:\PROJECT\sparta\AntInventory\SOURCE CODE VER 2.10\AnimatedGif.ocx=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\MSCOMM32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+G:\GIT ANT\antinventory.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\tinumb6.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\tishare6.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\tibase6.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\titext6.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSINET.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSCHRT20.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSWINSCK.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSMAPI32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MCI32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\PICCLP32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\SYSINFO.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMCT332.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files (x86)\MINDSYS\bin\Codejock.SkinFramework.v13.2.1.ocx=$(WinSysPath)
+C:\Program Files (x86)\MINDSYS\bin\Codejock.CommandBars.v13.2.1.ocx=$(WinSysPath)
+C:\Program Files (x86)\MINDSYS\bin\Chameleon.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\Crystl32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\crpe32.dll=$(WinSysPath)
+C:\Program Files (x86)\MINDSYS\bin\akprogressbar.ocx=$(WinSysPath)
+C:\Program Files (x86)\MINDSYS\bin\Codejock.Controls.v13.2.1.ocx=$(WinSysPath)
+G:\PROJECT\sparta\AntInventory\SOURCE CODE VER 2.10\AnimatedGif.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+G:\GIT ANT\antinventory.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Ant Inventory System
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Ant Inventory System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Ant Inventory System]
+Icon1=antinventory.exe
+Title1=Ant Inventory System
+StartIn1=$(AppPath)
+Key1=Icon1

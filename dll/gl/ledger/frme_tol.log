@@ -1,0 +1,13 @@
+Line 32: Class XtremeSuiteControls.TabControl of control TabControl1 was not a loaded control class.
+Line 110: Class XtremeSuiteControls.CheckBox of control cbedit was not a loaded control class.
+Line 134: Class XtremeSuiteControls.RadioButton of control optcard was not a loaded control class.
+Line 156: Class XtremeSuiteControls.RadioButton of control optdate was not a loaded control class.
+Line 349: Class XtremeSuiteControls.ComboBox of control cmbpilih was not a loaded control class.
+Line 430: Class XtremeSuiteControls.PushButton of control cmdnomor was not a loaded control class.
+Line 595: Class XtremeSuiteControls.PushButton of control btnkartu was not a loaded control class.
+Line 637: Class XtremeSuiteControls.PushButton of control btnview was not a loaded control class.
+Line 660: Class XtremeSuiteControls.CheckBox of control cbdelete was not a loaded control class.
+Line 1135: Class XtremeSuiteControls.PushButton of control cmdclose was not a loaded control class.
+Line 1158: Class XtremeSuiteControls.PushButton of control cmdsave was not a loaded control class.
+Line 1181: Class XtremeSuiteControls.PushButton of control cmdClear was not a loaded control class.
+Line 1204: Class XtremeSuiteControls.PushButton of control cmddel was not a loaded control class.

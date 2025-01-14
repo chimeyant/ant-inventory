@@ -1,0 +1,13 @@
+frmkoneksi = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CKoneksi = 0, 0, 0, 0, C
+modEnskryptDecrypt = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+frmuser = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CUser = 0, 0, 0, 0, C
+frmfinduser = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmchangepass = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CPassword = 0, 0, 0, 0, C
+frmimportstokbahanbaku = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+CMaster = 0, 0, 0, 0, C

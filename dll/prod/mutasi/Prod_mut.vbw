@@ -1,0 +1,12 @@
+CMUT = 52, 52, 872, 494, Z
+frmAddmut = 52, 52, 800, 494, , 26, 26, 774, 468, C
+modEnskryptDecrypt = 0, 0, 0, 0, C
+modfunctiondb = 0, 0, 0, 0, C
+modkoneksi = 0, 0, 0, 0, C
+modvariable = 0, 0, 0, 0, C
+frmsearch = 130, 130, 878, 572, , 104, 104, 852, 546, C
+frmLapmut = 0, 0, 0, 0, C, 208, 208, 1028, 650, C
+frmLapmut_date = 0, 0, 0, 0, C, 0, 0, 820, 442, C
+frmWiptoBb = 0, 0, 936, 368, , 130, 130, 878, 572, C
+frmLapwipbase = 0, 0, 0, 0, C, 156, 156, 930, 598, C
+frmAdjbase = 130, 130, 950, 572, , 130, 130, 950, 572, C
