@@ -129,7 +129,7 @@ Begin VB.Form frminvoiceprint
          Strikethrough   =   0   'False
       EndProperty
       CustomFormat    =   "dd MMMM yyyy"
-      Format          =   143392771
+      Format          =   143327235
       CurrentDate     =   38773
    End
    Begin VB.TextBox txtnodo2 
@@ -354,7 +354,7 @@ Begin VB.Form frminvoiceprint
          Strikethrough   =   0   'False
       EndProperty
       CustomFormat    =   "dd MMMM yyyy"
-      Format          =   143392771
+      Format          =   143327235
       CurrentDate     =   38773
    End
    Begin VB.Label Label3 
@@ -523,7 +523,8 @@ Private Sub cmdview_Click()
     
     SP.ActiveConnection = dsn
     SP.CommandType = adCmdStoredProc
-    SP.CommandText = "am_invoicesay"
+    'SP.CommandText = "am_invoicesay"
+    SP.CommandText = "am_invoicesay_12" 'Kembalikan jika hitungan ppn sudah normal tanpa 11/12
     vsp(0) = txtnodo1
     vsp(1) = txtnodo2
     vsp(2) = Format(date1, "yyyyMMdd")
@@ -575,7 +576,8 @@ Private Sub cmdview_Click()
     crystal.WindowShowPrintSetupBtn = True
     crystal.WindowShowSearchBtn = True
     crystal.Connect = dsnreport
-    crystal.DataFiles(0) = "Proc(am_invoice)"
+    'crystal.DataFiles(0) = "Proc(am_invoice)"
+    crystal.DataFiles(0) = "Proc(am_invoice_12)"
     If cb.Value = xtpChecked Then
         crystal.ReportFileName = AppPath & "\reports\sale\inv\invoicenx.rpt"
     Else

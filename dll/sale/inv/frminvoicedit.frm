@@ -43,11 +43,11 @@ Begin VB.Form frminvoicedit
    Begin VB.TextBox txtgudang 
       Appearance      =   0  'Flat
       Height          =   285
-      Left            =   6825
+      Left            =   3945
       MaxLength       =   50
       TabIndex        =   48
       Top             =   810
-      Width           =   2310
+      Width           =   2070
    End
    Begin VB.TextBox txtNama 
       Appearance      =   0  'Flat
@@ -320,7 +320,7 @@ Begin VB.Form frminvoicedit
          Strikethrough   =   0   'False
       EndProperty
       CustomFormat    =   "dd MMMM yyyy"
-      Format          =   134283267
+      Format          =   143327235
       CurrentDate     =   37426
    End
    Begin TDBNumber6Ctl.TDBNumber txtppn 
@@ -376,7 +376,7 @@ Begin VB.Form frminvoicedit
       ReadOnly        =   0
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   -1912143867
+      ValueVT         =   -1355808763
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -611,7 +611,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   7680
       TabIndex        =   32
-      Top             =   2040
+      Top             =   1560
       Width           =   1335
       _Version        =   65536
       _ExtentX        =   2355
@@ -660,7 +660,7 @@ Begin VB.Form frminvoicedit
       ReadOnly        =   1
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   1245189
+      ValueVT         =   -65531
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -669,7 +669,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   7440
       TabIndex        =   33
-      Top             =   1800
+      Top             =   1320
       Width           =   1575
       _Version        =   65536
       _ExtentX        =   2778
@@ -879,7 +879,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   7710
       TabIndex        =   42
-      Top             =   1560
+      Top             =   1080
       Width           =   1305
       _Version        =   65536
       _ExtentX        =   2302
@@ -928,7 +928,7 @@ Begin VB.Form frminvoicedit
       ReadOnly        =   1
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   1245185
+      ValueVT         =   1
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -937,7 +937,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   7440
       TabIndex        =   44
-      Top             =   1320
+      Top             =   840
       Width           =   1575
       _Version        =   65536
       _ExtentX        =   2778
@@ -1049,10 +1049,144 @@ Begin VB.Form frminvoicedit
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
    End
+   Begin TDBNumber6Ctl.TDBNumber txtDpp 
+      Height          =   255
+      Left            =   7680
+      TabIndex        =   51
+      Top             =   2040
+      Width           =   1335
+      _Version        =   65536
+      _ExtentX        =   2355
+      _ExtentY        =   450
+      Calculator      =   "frminvoicedit.frx":4706
+      Caption         =   "frminvoicedit.frx":4726
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      DropDown        =   "frminvoicedit.frx":4792
+      Keys            =   "frminvoicedit.frx":47B0
+      Spin            =   "frminvoicedit.frx":47F2
+      AlignHorizontal =   1
+      AlignVertical   =   0
+      Appearance      =   0
+      BackColor       =   -2147483628
+      BorderStyle     =   0
+      BtnPositioning  =   0
+      ClipMode        =   0
+      ClearAction     =   0
+      DecimalPoint    =   "."
+      DisplayFormat   =   "###,###,###,##0;(###,###,###,##0);0"
+      EditMode        =   0
+      Enabled         =   -1
+      ErrorBeep       =   0
+      ForeColor       =   -2147483640
+      Format          =   "###,###,###,##0;(###,###,###,##0)"
+      HighlightText   =   0
+      MarginBottom    =   1
+      MarginLeft      =   1
+      MarginRight     =   1
+      MarginTop       =   1
+      MaxValue        =   999999999999999
+      MinValue        =   -999999999999999
+      MousePointer    =   0
+      MoveOnLRKey     =   0
+      NegativeColor   =   255
+      OLEDragMode     =   0
+      OLEDropMode     =   0
+      ReadOnly        =   1
+      Separator       =   ","
+      ShowContextMenu =   0
+      ValueVT         =   -65531
+      Value           =   0
+      MaxValueVT      =   775290885
+      MinValueVT      =   1701576709
+   End
+   Begin TDBNumber6Ctl.TDBNumber txtNetotal 
+      Height          =   255
+      Left            =   7680
+      TabIndex        =   52
+      Top             =   1800
+      Width           =   1335
+      _Version        =   65536
+      _ExtentX        =   2355
+      _ExtentY        =   450
+      Calculator      =   "frminvoicedit.frx":481A
+      Caption         =   "frminvoicedit.frx":483A
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      DropDown        =   "frminvoicedit.frx":48A6
+      Keys            =   "frminvoicedit.frx":48C4
+      Spin            =   "frminvoicedit.frx":4906
+      AlignHorizontal =   1
+      AlignVertical   =   0
+      Appearance      =   0
+      BackColor       =   -2147483628
+      BorderStyle     =   0
+      BtnPositioning  =   0
+      ClipMode        =   0
+      ClearAction     =   0
+      DecimalPoint    =   "."
+      DisplayFormat   =   "###,###,###,##0;(###,###,###,##0);0"
+      EditMode        =   0
+      Enabled         =   -1
+      ErrorBeep       =   0
+      ForeColor       =   -2147483640
+      Format          =   "###,###,###,##0;(###,###,###,##0)"
+      HighlightText   =   0
+      MarginBottom    =   1
+      MarginLeft      =   1
+      MarginRight     =   1
+      MarginTop       =   1
+      MaxValue        =   999999999999999
+      MinValue        =   -999999999999999
+      MousePointer    =   0
+      MoveOnLRKey     =   0
+      NegativeColor   =   255
+      OLEDragMode     =   0
+      OLEDropMode     =   0
+      ReadOnly        =   1
+      Separator       =   ","
+      ShowContextMenu =   0
+      ValueVT         =   -1355808763
+      Value           =   0
+      MaxValueVT      =   775290885
+      MinValueVT      =   1701576709
+   End
+   Begin VB.Label Label10 
+      BackColor       =   &H80000014&
+      Caption         =   "DPP"
+      Height          =   255
+      Left            =   6960
+      TabIndex        =   54
+      Top             =   2040
+      Width           =   855
+   End
+   Begin VB.Label Label9 
+      BackColor       =   &H80000014&
+      Caption         =   "Total Net"
+      Height          =   255
+      Left            =   6960
+      TabIndex        =   53
+      Top             =   1800
+      Width           =   855
+   End
    Begin VB.Label Label3 
       Caption         =   "Gudang"
       Height          =   255
-      Left            =   5925
+      Left            =   3045
       TabIndex        =   49
       Top             =   825
       Width           =   810
@@ -1097,7 +1231,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   6990
       TabIndex        =   45
-      Top             =   1320
+      Top             =   840
       Width           =   495
    End
    Begin VB.Label Label4 
@@ -1106,7 +1240,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   6990
       TabIndex        =   43
-      Top             =   1560
+      Top             =   1080
       Width           =   735
    End
    Begin VB.Label lblsat 
@@ -1131,7 +1265,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   6990
       TabIndex        =   38
-      Top             =   1800
+      Top             =   1320
       Width           =   495
    End
    Begin VB.Label Label17 
@@ -1140,7 +1274,7 @@ Begin VB.Form frminvoicedit
       Height          =   255
       Left            =   6990
       TabIndex        =   37
-      Top             =   2040
+      Top             =   1560
       Width           =   855
    End
    Begin VB.Label Label18 
@@ -1227,10 +1361,10 @@ Begin VB.Form frminvoicedit
       Appearance      =   0  'Flat
       BackColor       =   &H80000014&
       ForeColor       =   &H80000008&
-      Height          =   1665
+      Height          =   2025
       Left            =   6840
       TabIndex        =   39
-      Top             =   1200
+      Top             =   840
       Width           =   2295
    End
 End
@@ -1392,7 +1526,8 @@ langkahi2:
     
     SP.ActiveConnection = dsn
     SP.CommandType = adCmdStoredProc
-    SP.CommandText = "am_postinginv"
+    'SP.CommandText = "am_postinginv"   'Kembalikan Jika hitungan ppn normal kembali tanpa 11/12
+    SP.CommandText = "am_postinginv_12"
     vsp(0) = txtnobukti
     vsp(1) = Format(date1, "yyyyMMdd")
     vsp(2) = "sj"
@@ -2011,8 +2146,21 @@ Private Sub hitneto()
     Else
         txtdiscount = 0 + str2
     End If
+    
+    If Left(txtnobukti, 1) = "P" Then
+        txtDpp = (txtneto - txtdiscount) * (11 / 12) ' hitung dpp ; total net x 11/12
+    Else
+        txtDpp = 0
+    End If
+    txtNetotal = txtneto - txtdiscount
+    
     If txtppn <> 0 Then
-        txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+        'txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+        If txtppn <> 12 Then
+            txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+        Else
+            txtppn1 = (txtDpp * txtppn) / 100
+        End If
     Else
         txtppn1 = 0
     End If
@@ -2039,6 +2187,8 @@ Private Sub hapusemua()
     txtotal = 0
     txtkurs = ""
     txtnilaikurs = 0
+    txtNetotal = 0
+    txtDpp = 0
     hapusgrid
     lblitem = "    Nama Barang : "
     lblsat = "    Nama Satuan : "

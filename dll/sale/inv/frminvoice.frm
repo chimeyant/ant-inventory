@@ -132,7 +132,7 @@ Begin VB.Form frminvoice
       ReadOnly        =   0
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   1245189
+      ValueVT         =   6946821
       Value           =   0
       MaxValueVT      =   5
       MinValueVT      =   5
@@ -299,7 +299,7 @@ Begin VB.Form frminvoice
       ReadOnly        =   0
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   1638405
+      ValueVT         =   -1355808763
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -641,7 +641,7 @@ Begin VB.Form frminvoice
       ReadOnly        =   1
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   5
+      ValueVT         =   -65531
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -650,7 +650,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   7680
       TabIndex        =   31
-      Top             =   1680
+      Top             =   1440
       Width           =   1335
       _Version        =   65536
       _ExtentX        =   2355
@@ -699,7 +699,7 @@ Begin VB.Form frminvoice
       ReadOnly        =   1
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   -65531
+      ValueVT         =   5
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -708,7 +708,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   7440
       TabIndex        =   32
-      Top             =   1440
+      Top             =   1200
       Width           =   1575
       _Version        =   65536
       _ExtentX        =   2778
@@ -757,7 +757,7 @@ Begin VB.Form frminvoice
       ReadOnly        =   1
       Separator       =   ","
       ShowContextMenu =   0
-      ValueVT         =   -65531
+      ValueVT         =   5
       Value           =   0
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
@@ -918,7 +918,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   7710
       TabIndex        =   41
-      Top             =   1200
+      Top             =   960
       Width           =   1305
       _Version        =   65536
       _ExtentX        =   2302
@@ -976,7 +976,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   7440
       TabIndex        =   43
-      Top             =   960
+      Top             =   720
       Width           =   1575
       _Version        =   65536
       _ExtentX        =   2778
@@ -1088,6 +1088,73 @@ Begin VB.Form frminvoice
       MaxValueVT      =   775290885
       MinValueVT      =   1701576709
    End
+   Begin TDBNumber6Ctl.TDBNumber txtNetotal 
+      Height          =   255
+      Left            =   7680
+      TabIndex        =   50
+      Top             =   1680
+      Width           =   1335
+      _Version        =   65536
+      _ExtentX        =   2355
+      _ExtentY        =   450
+      Calculator      =   "frminvoice.frx":481A
+      Caption         =   "frminvoice.frx":483A
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      DropDown        =   "frminvoice.frx":48A6
+      Keys            =   "frminvoice.frx":48C4
+      Spin            =   "frminvoice.frx":4906
+      AlignHorizontal =   1
+      AlignVertical   =   0
+      Appearance      =   0
+      BackColor       =   -2147483628
+      BorderStyle     =   0
+      BtnPositioning  =   0
+      ClipMode        =   0
+      ClearAction     =   0
+      DecimalPoint    =   "."
+      DisplayFormat   =   "###,###,###,##0;(###,###,###,##0);0"
+      EditMode        =   0
+      Enabled         =   -1
+      ErrorBeep       =   0
+      ForeColor       =   -2147483640
+      Format          =   "###,###,###,##0;(###,###,###,##0)"
+      HighlightText   =   0
+      MarginBottom    =   1
+      MarginLeft      =   1
+      MarginRight     =   1
+      MarginTop       =   1
+      MaxValue        =   999999999999999
+      MinValue        =   -999999999999999
+      MousePointer    =   0
+      MoveOnLRKey     =   0
+      NegativeColor   =   255
+      OLEDragMode     =   0
+      OLEDropMode     =   0
+      ReadOnly        =   1
+      Separator       =   ","
+      ShowContextMenu =   0
+      ValueVT         =   -65531
+      Value           =   0
+      MaxValueVT      =   775290885
+      MinValueVT      =   1701576709
+   End
+   Begin VB.Label Label8 
+      BackColor       =   &H80000014&
+      Caption         =   "Total Net"
+      Height          =   255
+      Left            =   6990
+      TabIndex        =   49
+      Top             =   1680
+      Width           =   855
+   End
    Begin VB.Label Label7 
       BackColor       =   &H80000014&
       Caption         =   "DPP"
@@ -1119,7 +1186,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   6990
       TabIndex        =   44
-      Top             =   960
+      Top             =   720
       Width           =   495
    End
    Begin VB.Label Label1 
@@ -1128,7 +1195,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   6990
       TabIndex        =   42
-      Top             =   1200
+      Top             =   960
       Width           =   735
    End
    Begin VB.Label lblsat 
@@ -1155,7 +1222,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   6990
       TabIndex        =   37
-      Top             =   1440
+      Top             =   1200
       Width           =   495
    End
    Begin VB.Label Label17 
@@ -1164,7 +1231,7 @@ Begin VB.Form frminvoice
       Height          =   255
       Left            =   6990
       TabIndex        =   36
-      Top             =   1680
+      Top             =   1440
       Width           =   855
    End
    Begin VB.Label Label18 
@@ -1259,10 +1326,10 @@ Begin VB.Form frminvoice
       Appearance      =   0  'Flat
       BackColor       =   &H80000014&
       ForeColor       =   &H80000008&
-      Height          =   1545
+      Height          =   2145
       Left            =   6840
       TabIndex        =   38
-      Top             =   1200
+      Top             =   600
       Width           =   2295
    End
 End
@@ -1438,7 +1505,8 @@ Private Sub cmdadd_Click()
 
     SP.ActiveConnection = dsn
     SP.CommandType = adCmdStoredProc
-    SP.CommandText = "am_postinginv"
+    'SP.CommandText = "am_postinginv" 'Kembalikan jika hitungan ppn normal kembali tanpa 11/12
+    SP.CommandText = "am_postinginv_12"
     vsp(0) = txtnobukti
     vsp(1) = Format(date1, "yyyyMMdd")
     vsp(2) = "sj"
@@ -1743,7 +1811,12 @@ Private Sub txtppn_KeyPress(KeyAscii As Integer)
             'End If
         'End If
         If txtppn <> 0 Then
-            txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+            'txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+            If txtppn <> 12 Then
+                txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+            Else
+                txtppn1 = (txtDpp * txtppn) / 100
+            End If
         Else
             txtppn1 = 0
         End If
@@ -2031,17 +2104,26 @@ Private Sub hitneto()
         txtdiscount = 0 + str2
     End If
     
-    txtDpp = (txtneto - txtdiscount) * (dpp / ppn) ' hitung dpp ; total net x 11/12
+    If Left(txtnobukti, 1) = "P" Then
+        txtDpp = (txtneto - txtdiscount) * (11 / 12) ' hitung dpp ; total net x 11/12
+    Else
+        txtDpp = 0
+    End If
+    txtNetotal = txtneto - txtdiscount
     
     If txtppn <> 0 Then
         'txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
-        txtppn1 = (txtDpp * txtppn) / 100
+        If txtppn <> 12 Then
+            txtppn1 = ((txtneto - txtdiscount) * txtppn) / 100
+        Else
+            txtppn1 = (txtDpp * txtppn) / 100
+        End If
     Else
         txtppn1 = 0
     End If
     
-    'txtotal = txtneto - txtdiscount + txtppn1
-    txtotal = txtDpp + txtppn1
+    txtotal = txtneto - txtdiscount + txtppn1
+    'txtotal = txtDpp + txtppn1
 End Sub
 
 Private Sub SetRow(ByVal idx As Integer, ByVal hapus As String)
@@ -2063,6 +2145,8 @@ Private Sub hapusemua()
     txtotal = 0
     txtkurs = ""
     txtnilaikurs = 0
+    txtNetotal = 0
+    txtDpp = 0
     
     hapusgrid
     
